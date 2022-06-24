@@ -31,7 +31,7 @@ console.log(dataString);
 	
 //--------------------
 var options = {
-	url: `https://rinkeby.infura.io/v3/${ziel.sZielInfura}`,
+	url: `https://ropsten.infura.io/v3/${ziel.sZielInfura}`,
 	method: 'POST',
 	headers: headers,
 	body: dataString,
