@@ -1,7 +1,8 @@
 (async function(){ //
 //const dotenv = require('dotenv').config();
 var request = require('request');
-const ziel = require('../ziel');
+const ziel = require('../ziel'); // ziel.js -> module.exports={ sZielInfura: "" }
+
 //return console.log(ziel.sZielInfura);
 
 	var headers = {
