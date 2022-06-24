@@ -20,12 +20,12 @@ var params = [
 	/*{
   	//"data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675",
 	},*/
-	"0x0",
+	//"0x0",
 	"latest",
 	//true
 ];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_getStorageAt","params":'+ JSON.stringify(params) +',"id":1}';
+var dataString = '{"jsonrpc":"2.0","method":"eth_getStorageAt","params":'+ JSON.stringify(params) +',"id":3}';
 
 console.log(dataString);
 	
