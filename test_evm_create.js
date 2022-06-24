@@ -16,9 +16,9 @@ var headers = {
 	
 	
 var params = [
-	/*{
+	{
   	//"data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675",
-	},*/
+	},
 	"latest",
 	true
 ];
@@ -36,9 +36,6 @@ var options = {
 };
 
 function callback(error, response, body) {
-	console.log(error);
-	console.log(response);
-	console.log(body);
 	if (!error && response.statusCode == 200) {
 		json = response.body;
 		var obj = JSON.parse(json);
