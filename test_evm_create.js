@@ -23,7 +23,7 @@ var params = [
 	//true
 ];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_mining","params":'+ JSON.stringify(params) +',"id":71}';
+var dataString = '{"jsonrpc":"2.0","method":"eth_hashrate","params":'+ JSON.stringify(params) +',"id":71}';
 
 console.log(dataString);
 	
