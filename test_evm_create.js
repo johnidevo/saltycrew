@@ -23,7 +23,7 @@ var params = [
 	//true
 ];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_gasPrice","params":'+ JSON.stringify(params) +',"id":1}';
+var dataString = '{"jsonrpc":"2.0","method":"eth_accounts","params":'+ JSON.stringify(params) +',"id":1}';
 
 console.log(dataString);
 	
@@ -40,9 +40,11 @@ function callback(error, response, body) {
 		json = response.body;
 		var obj = JSON.parse(json);
 		console.log(obj);
+/*
 		hex = obj.result;
 		final = parseInt(hex, 16)
-		console.log(final) //eth_gasPrice
+		console.log(final) 
+*/
 	}
 }
 
