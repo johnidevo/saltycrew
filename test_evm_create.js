@@ -16,15 +16,16 @@ var headers = {
 	
 	
 var params = [
-	'0xe9884777D9F377530788CeE12A40269f812cF30a',
+	"0xe9884777D9F377530788CeE12A40269f812cF30a",
 	/*{
   	//"data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675",
 	},*/
+	"0x0",
 	"latest",
 	//true
 ];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_getBalance","params":'+ JSON.stringify(params) +',"id":1}';
+var dataString = '{"jsonrpc":"2.0","method":"eth_getStorageAt","params":'+ JSON.stringify(params) +',"id":1}';
 
 console.log(dataString);
 	
