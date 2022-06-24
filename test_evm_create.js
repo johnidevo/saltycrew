@@ -15,11 +15,11 @@ var headers = {
 //_______________
 	
 //https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_call
-var params: [
+var params= [
   "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675",
-]
+];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_sendRawTransaction","params":'+ params +',"id":1}';
+var dataString = '{"jsonrpc":"2.0","method":"eth_sendRawTransaction",'+ params +',"id":1}';
 
 
 	
@@ -32,6 +32,9 @@ var options = {
 };
 
 function callback(error, response, body) {
+	console.log(error);
+	console.log(response);
+	console.log(body);
 	if (!error && response.statusCode == 200) {
 		json = response.body;
 		var obj = JSON.parse(json);
