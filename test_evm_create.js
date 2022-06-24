@@ -21,7 +21,7 @@ var params = [{
 
 var dataString = '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":'+ JSON.stringify(params) +',"id":1}';
 
-return console.log(dataString);
+//return console.log(dataString);
 	
 //--------------------
 var options = {
