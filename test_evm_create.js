@@ -40,6 +40,9 @@ function callback(error, response, body) {
 		json = response.body;
 		var obj = JSON.parse(json);
 		console.log(obj);
+		hex = obj.result;
+		final = parseInt(hex, 16)
+		console.log(final) //eth_gasPrice
 	}
 }
 
