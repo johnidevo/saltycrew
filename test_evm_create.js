@@ -16,7 +16,7 @@ var headers = {
 	
 	
 var params = [
-	'0x407d73d8a49eeb85d32cf465507dd71d507100c1',
+	'0x46016F4B62fBd891cbeF8f193459e38f1e08Ce12',
 	/*{
   	//"data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675",
 	},*/
@@ -41,11 +41,11 @@ function callback(error, response, body) {
 		json = response.body;
 		var obj = JSON.parse(json);
 		console.log(obj);
-/*
+
 		hex = obj.result;
 		final = parseInt(hex, 16)
 		console.log(final) 
-*/
+
 	}
 }
 
