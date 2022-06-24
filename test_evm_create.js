@@ -22,7 +22,9 @@ function callback(error, response, body) {
 	if (!error && response.statusCode == 200) {
 		json = response.body;
 		var obj = JSON.parse(json);
-		console.log(obj)
+		hex = obj.result.number;
+		final = parseInt(hex, 16)
+		console.log(final) //eth_getBlockByNumber
 	}
 }
 
