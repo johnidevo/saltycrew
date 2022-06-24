@@ -16,16 +16,16 @@ var headers = {
 	
 	
 var params = [
-	{
+	/*{
   	//"data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675",
-	},
+	},*/
 	"latest",
 	true
 ];
 
 var dataString = '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":'+ JSON.stringify(params) +',"id":1}';
 
-//return console.log(dataString);
+console.log(dataString);
 	
 //--------------------
 var options = {
