@@ -23,8 +23,8 @@ var params = [
 	//true
 ];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_coinbase","params":'+ JSON.stringify(params) +',"id":64}';
-
+//var dataString = '{"jsonrpc":"2.0","method":"eth_coinbase","params":'+ JSON.stringify(params) +',"id":1}';
+var dataString = '{"jsonrpc":"2.0","method":"eth_coinbase","params":[],"id":64}';
 console.log(dataString);
 	
 //--------------------
