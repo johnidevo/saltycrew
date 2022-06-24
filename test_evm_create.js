@@ -25,7 +25,7 @@ var params = [
 	//true
 ];
 
-var dataString = '{"jsonrpc":"2.0","method":"eth_getBalance","params":'+ JSON.stringify(params) +',"id":1}';
+var dataString = '{"jsonrpc":"2.0","method":"getAccountInfo","params":'+ JSON.stringify(params) +',"id":1}';
 
 console.log(dataString);
 	
